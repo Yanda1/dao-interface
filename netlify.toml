@@ -1,0 +1,16 @@
+[context.production.environment]
+  VUE_APP_CHAIN_ID = "44787"
+  VUE_APP_CHAIN_NAME = "Celo (Alfajores Testnet)"
+  VUE_APP_CHAIN_RPC = "https://alfajores-forno.celo-testnet.org"
+  VUE_APP_CHAIN_EXP = "https://alfajores-blockscout.celo-testnet.org"
+  VUE_APP_TOKEN_ADDR = "0xf2ED6Cb030427a31d74711cfDb4aD0b33aa12872"
+  VUE_APP_GOVERNOR_ADDR = "0xCC09B1cdC25D664c16Ff1225651afe76b4e865e7"
+  VUE_APP_BLOCK_TIME = "5"
+[context.branch-deploy.environment]
+  VUE_APP_CHAIN_ID = "44787"
+  VUE_APP_CHAIN_NAME = "Celo (Alfajores Testnet)"
+  VUE_APP_CHAIN_RPC = "https://alfajores-forno.celo-testnet.org"
+  VUE_APP_CHAIN_EXP = "https://alfajores-blockscout.celo-testnet.org"
+  VUE_APP_TOKEN_ADDR = "0xf2ED6Cb030427a31d74711cfDb4aD0b33aa12872"
+  VUE_APP_GOVERNOR_ADDR = "0xCC09B1cdC25D664c16Ff1225651afe76b4e865e7"
+  VUE_APP_BLOCK_TIME = "5"

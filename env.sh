@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+export VUE_APP_CHAIN_ID='44787'
+# export VUE_APP_CHAIN_ID='31337'
+export VUE_APP_CHAIN_NAME='Celo (Alfajores Testnet)'
+export VUE_APP_CHAIN_RPC='https://alfajores-forno.celo-testnet.org'
+# export VUE_APP_CHAIN_RPC='http://127.0.0.1:8545'
+export VUE_APP_CHAIN_EXP='https://alfajores-blockscout.celo-testnet.org'
+export VUE_APP_TOKEN_ADDR='0xf2ED6Cb030427a31d74711cfDb4aD0b33aa12872'
+# export VUE_APP_TOKEN_ADDR='0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0'
+export VUE_APP_GOVERNOR_ADDR='0xCC09B1cdC25D664c16Ff1225651afe76b4e865e7'
+# export VUE_APP_GOVERNOR_ADDR='0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9'
+export VUE_APP_BLOCK_TIME='5'

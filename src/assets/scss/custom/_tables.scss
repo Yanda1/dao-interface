@@ -1,0 +1,57 @@
+//
+// Tables
+//
+
+@import "../core/tables/table";
+
+
+.table-overflow {
+  overflow-x: auto; 
+  height:auto; 
+  width: 100%;
+}
+
+.active-page {
+  background-color: $primary !important;
+  color: $white !important;
+}
+
+.inactive-page {
+  color: $pagination-disabled-color !important;
+  background-color: $pagination-disabled-bg !important;
+  border-color: $pagination-disabled-border-color !important;
+  cursor: default !important;
+}
+.inactive-page:hover {
+  color: $pagination-disabled-color !important;
+  background-color: $pagination-disabled-bg !important;
+  border-color: $pagination-disabled-border-color !important;
+}
+
+.custom-page-item {
+  cursor: pointer;
+  color: $pagination-color;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0 3px;
+  border-radius: 50% !important;
+  width: 36px;
+  height: 36px;
+  font-size: 0.875rem;
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.0), 0 3px 6px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.0), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.custom-page-item:hover {
+  color: $pagination-hover-color;
+  background-color: $pagination-hover-bg;
+  border-color: $pagination-hover-border-color;
+}
